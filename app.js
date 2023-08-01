@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (clickedTodo.classList.contains("clicked") === false) {
       firstClick();
     } else {
+      clickedTodo.style.textDecoration = "none";
       secondClick();
     }
 
