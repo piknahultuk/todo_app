@@ -13,7 +13,6 @@ function addTodo() {
     todoInput.value = "";
   }
 }
-
 document.addEventListener("DOMContentLoaded", function () {
   todosList.addEventListener("click", function (e) {
     var clickedTodo = e.target;
@@ -32,4 +31,10 @@ document.addEventListener("DOMContentLoaded", function () {
       clickedTodo.remove();
     }
   });
+});
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "Enter") {
+    addTodo();
+  }
 });

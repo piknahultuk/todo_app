@@ -79,3 +79,21 @@ li:hover {
   color: #ff4000;
   text-decoration: line-through;
 }
+
+footer {
+  color: white;
+  bottom: 0;
+  width: 100%;
+  padding: 15px 0px;
+  text-align: center;
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: white;
+  text-decoration: underline;
+}
